@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профессиональный сайт по методологии БЭМ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">Добро пожаловать на наш сайт</h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link nav__link--active">Главная</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="hero__content">
+                <h2 class="hero__title">Создаем уникальные веб-решения</h2>
+                <p class="hero__text">Мы поможем вам реализовать ваши идеи в жизнь с помощью современных технологий.</p>
+                <a href="#" class="button button--primary">Узнать больше</a>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2 class="about__title">О нас</h2>
+            <p class="about__text">Мы - команда профессионалов, которая занимается разработкой веб-сайтов и приложений. Наша цель - предоставить качественные решения для вашего бизнеса.</p>
+        </section>
+
+        <section class="services">
+            <h2 class="services__title">Наши услуги</h2>
+            <ul class="services__list">
+                <li class="services__item">Веб-разработка</li>
+                <li class="services__item">Дизайн</li>
+                <li class="services__item">SEO-оптимизация</li>
+                <li class="services__item">Поддержка и обслуживание</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2 class="contact__title">Свяжитесь с нами</h2>
+            <form class="contact__form">
+                <label for="name" class="contact__label">Имя:</label>
+                <input type="text" id="name" class="contact__input" required>
+
+                <label for="email" class="contact__label">Email:</label>
+                <input type="email" id="email" class="contact__input" required>
+
+                <label for="message" class="contact__label">Сообщение:</label>
+                <textarea id="message" class="contact__textarea" required></textarea>
+
+                <button type="submit" class="button button--secondary">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">© 2023 Все права защищены.</p>
+            <ul class="footer__social-list">
+                <li class="footer__social-item"><a href="#" class="footer__social-link">Facebook</a></li>
+                <li class="footer__social-item"><a href="#" class="footer__social-link">Twitter</a></li>
+                <li class="footer__social-item"><a href="#" class="footer__social-link">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
